@@ -3,7 +3,11 @@
 <head>
 <style>
 
-
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 
 
 
@@ -11,23 +15,25 @@
 </head>
 <body>
 
-<h2>HTML Table</h2>
+
 
 <table>
-  <tr>
-    <th>Roll number</th>
-    <th>Name</th>
-  <tr>
-    <td>1</td>
-    <td>Tarun</td>
-	
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Sai</td>
-  
-  </tr>
- 
+  <thead>
+    <tr>
+      <th>Roll number</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> 1</td>
+      <td>Tarun</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sai</td>
+    </tr>
+  </tbody>
 </table>
 
 </body>
